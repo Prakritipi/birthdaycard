@@ -1,0 +1,106 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: #a2d2ff;
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
+}
+
+#bff-img {
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid #EFB0C9;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#gift-img-cheers {
+    height: 200px;
+}
+
+.gift-img {
+    margin: 20px auto;
+    width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("img/giftwrap.png");
+    background-size: cover;
+}
+
+#gift-img-happy:hover {
+    background-image: url("https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmVlbWY1N2NraG1yc3E0ZXJnOHlmcHg5c2Rwb3F0NzlybGNtc3lmOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/YnBntKOgnUSBkV7bQH/giphy.gif");
+}
+
+#gift-img-hot:hover {
+    background-image: url("https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbDY5NnRyYXl6OHRidnBobXozZHhndDUya2g4ZzVnMWRhN2s2MnY4biZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o7ZeCi0yTgb9AqXFm/giphy.gif");
+}
+
+#gift-img-genius:hover {
+    background-image: url("https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExaHRqeTcxdWN0bXl4OTB5cTFibjQ0cjhzMHZsNTl0cXpydWZwaHY2NyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/oddK5aURsUeqs/giphy.gif");
+    width: 350px;
+    height: 300px;
+}
+
+#gift-img-badass:hover {
+    background-image: url("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdjNxZTI1aGxtNGVsajdsbXljY2w4NWU1MzVuanhsc3gzN2phc3Y1OCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/IELPp4xE7W04RHU6oq/giphy.gif");
+    height: 300px;
+}
+
+
+/*
+Challenge:
+Create the "cheers" GIFt section.
+
+Note: this GIFt should have a height of 200px. 
+Select the #gift-img-cheers id and override 
+the height that the element got from the 
+.gift-img class.
+
+Text: 
+This one's for you, my friend 🥂
+*/
+
+
+
+#gift-img-cheers:hover {
+    background-image: url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNTYwc201dTR0bWt1dXVodmI3ZzY1bTdsajdqdWxoOXNkdDhsdTZ0MCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/oI6Ahtkqk76eY/giphy.gif");
+    margin: 20px auto;
+    width: 260px;
+    height: 200px;
+}
+
